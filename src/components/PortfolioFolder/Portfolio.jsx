@@ -70,8 +70,8 @@ const Portfolio = () => {
             </div>
             <h3>{title}</h3>
             <div className="portfolio_item-cta">
-              <a href={github} className="btn btn-primary portfolioButtons" target='_blank'>Github</a>
-              <a href={demo} className='btn btn-primary portfolioButtons' target='_blank'>Live Demo</a>
+              <a href={github} className="btn btn-primary portfolioButtons" target='_blank' rel='noreferrer'>Github</a>
+              <a href={demo} className='btn btn-primary portfolioButtons' target='_blank' rel='noreferrer'>Live Demo</a>
             </div>
           </article>
           )

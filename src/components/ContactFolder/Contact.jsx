@@ -4,7 +4,7 @@ import {MdOutlineEmail} from 'react-icons/md'
 import {BsGithub} from 'react-icons/bs'
 import emailjs from 'emailjs-com'
 import { animateOnScroll } from '../../Functions/animateScrollFunctions'
- 
+
 const Contact = () => {
   useEffect(() => {
     animateOnScroll();
@@ -36,13 +36,13 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>Jeff.BozierJr@gmail.com</h5>
             <h5>Send an Email</h5>
-            <a href="mailto:jeff.bozierjr@gmail.com" className='btn btn-primary' target="_blank">Send a Message</a>
+            <a href="mailto:jeff.bozierjr@gmail.com" rel='noreferrer' className='btn btn-primary' target="_blank">Send a Message</a>
           </article>
           <article className="contact_option">
             <BsGithub className='contact_option-icon'/>
             <h4>LinkedIn</h4>
             <h5>Send a message through LinkedIn</h5>
-            <a href="https://www.linkedin.com/in/jeff-bozier-jr/" className='btn btn-primary' target="_blank">Send a Message</a>
+            <a href="https://www.linkedin.com/in/jeff-bozier-jr/" className='btn btn-primary' target="_blank" rel='noreferrer'>Send a Message</a>
           </article>
         </div>
         {/* End of Contact Options */}

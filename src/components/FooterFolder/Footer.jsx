@@ -10,10 +10,10 @@ const Footer = () => {
   }, []);
   return (
     <footer className='animate-on-scroll'>
-      <a href="#" className="footer_logo">Jeff B</a>
+      <a href="#header" className="footer_logo">Jeff B</a>
 
       <ul className="permalinks">
-        <li><a href="#">Home</a></li>
+        <li><a href="#header">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#services">Services</a></li>

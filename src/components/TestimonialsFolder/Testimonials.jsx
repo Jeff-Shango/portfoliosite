@@ -15,7 +15,7 @@ const Testimonials = () => {
       <div className="container testimonials_container">
         <article className="testimonial">
           <div className="client_avatar">
-            <img src={mikePhoto} alt="testimonial photo" />
+            <img src={mikePhoto} alt="testimonial" />
             
           </div>
           <h5 className="client_name">Michael Wright</h5>

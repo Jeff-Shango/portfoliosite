@@ -1,6 +1,3 @@
-let loader; 
-let mobileLoader;
-
 let win = window;
 let doc = document;
 let docElem = doc.documentElement;
