@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './Footer.css'
 import {BsGithub} from 'react-icons/bs'
 import {AiFillLinkedin} from 'react-icons/ai'
-import { animateOnScroll } from '../../functions/animateScrollFunctions'
+import { animateOnScroll } from '../../Functions/animateScrollFunctions'
 
 const Footer = () => {
   useEffect(() => {

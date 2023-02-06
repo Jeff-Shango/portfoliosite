@@ -3,7 +3,7 @@ import './Header.css'
 import Resume from './CTA'
 import profilePic from '../../assets/profilepic.png'
 import HeaderSocials from './HeaderSocials'
-import { animateOnScroll } from '../../functions/animateScrollFunctions'
+import { animateOnScroll } from '../../Functions/animateScrollFunctions'
 
 const Header = () => {
   useEffect(() => {

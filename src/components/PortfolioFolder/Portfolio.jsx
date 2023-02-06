@@ -6,7 +6,7 @@ import img3 from '../../assets/teacherCalcA.png'
 import img4 from '../../assets/dashboard.png'
 import img5 from '../../assets/DateListTracker.png'
 import img6 from '../../assets/originalPortfolio.png'
-import { animateOnScroll } from '../../functions/animateScrollFunctions'
+import { animateOnScroll } from '../../Functions/animateScrollFunctions'
 
 const data = [
   {

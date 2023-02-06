@@ -8,7 +8,7 @@ import Experience from './components/ExperienceFolder/Experience'
 import Navbar from './components/NavbarFolder/Navbar'
 import Services from './components/ServicesFolder/Services'
 import Testimonials from './components/TestimonialsFolder/Testimonials'
-import { checkScreen } from './functions/loaderFunctions'
+import { checkScreen } from './Functions/loaderFunctions.js'
 
 checkScreen(); 
 const App = () => {

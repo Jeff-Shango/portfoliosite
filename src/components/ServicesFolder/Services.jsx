@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Services.css'
 import {BiCheck} from 'react-icons/bi'
-import { animateOnScroll } from '../../functions/animateScrollFunctions'
+import { animateOnScroll } from '../../Functions/animateScrollFunctions'
 
 const Services = () => {
   useEffect(() => {

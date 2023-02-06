@@ -3,8 +3,8 @@ import "./Contact.css"
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsGithub} from 'react-icons/bs'
 import emailjs from 'emailjs-com'
-import { animateOnScroll } from '../../functions/animateScrollFunctions'
-
+import { animateOnScroll } from '../../Functions/animateScrollFunctions'
+ 
 const Contact = () => {
   useEffect(() => {
     animateOnScroll();

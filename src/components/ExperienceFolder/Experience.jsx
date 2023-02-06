@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
-import { animateOnScroll } from '../../functions/animateScrollFunctions'
+import { animateOnScroll } from '../../Functions/animateScrollFunctions'
 
 const Experience = () => {
   useEffect(() => {

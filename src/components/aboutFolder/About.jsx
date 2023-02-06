@@ -3,7 +3,7 @@ import "./About.css"
 import aboutMeImage from "../../assets/abourImg.png"
 import {FaAward} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
-import { animateOnScroll } from '../../functions/animateScrollFunctions'
+import { animateOnScroll } from '../../Functions/animateScrollFunctions'
 
 
 

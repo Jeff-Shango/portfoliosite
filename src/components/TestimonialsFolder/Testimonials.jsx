@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Testimonials.css'
 import mikePhoto from '../../assets/headshotWTruck.jpg'
-import { animateOnScroll } from '../../functions/animateScrollFunctions'
+import { animateOnScroll } from '../../Functions/animateScrollFunctions'
 
 const Testimonials = () => {
   useEffect(() => {
