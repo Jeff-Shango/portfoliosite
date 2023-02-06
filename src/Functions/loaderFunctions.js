@@ -13,7 +13,7 @@ window.onresize = function() {
 export function checkScreen() {
 if (x > 500) {
     function loaderFunction() {
-            loader = setTimeout(showPage, 3000);
+            setTimeout(showPage, 3000);
         }
         
         function showPage() {
@@ -25,7 +25,7 @@ if (x > 500) {
         loaderFunction();
     } else {
         function mobileLoaderFunction() {
-                mobileLoader = setTimeout(showMobilePage, 3000);
+                setTimeout(showMobilePage, 3000);
             }
             
             function showMobilePage() {
