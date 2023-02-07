@@ -200,8 +200,7 @@ img {
 
     body{
         background-image: url(../src/assets/universeBackground.jpg);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto 100%;
+
     }
 }
