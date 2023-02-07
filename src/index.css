@@ -188,6 +188,14 @@ img {
         height: 100vh;
     }
 }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: #1f1f38;
+        background-image: none;
+    }
+}
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
     .container {

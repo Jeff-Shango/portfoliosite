@@ -117,7 +117,7 @@
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     #services {
-        margin-bottom: 55rem;
+        height: fit-content;
     }
     .services_container {
         grid-template-columns: 1fr 1fr;
@@ -140,6 +140,13 @@
         z-index: -1;
     }
     
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    #services {
+        height: fit-content;
+    }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
