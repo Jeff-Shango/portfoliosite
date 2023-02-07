@@ -200,8 +200,8 @@ img {
 
     body {
         background-image: url(./assets/background-iphone.jpg);
-        background-size: cover;
-        
+        background-size: auto 100%;
+        background-position: center;
     }
 }
 
