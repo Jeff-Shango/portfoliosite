@@ -40,7 +40,7 @@
     width: 15rem;
     position: absolute;
     top: 0;
-    left: 38%;
+    left: 41%;
     background-color: rgba(114, 47, 55, 0.5);
     z-index: -1;
     border: 2px solid black;
@@ -206,6 +206,37 @@
         font-size: x-large;
         font-weight: bolder;
         margin-left: 37%;
+    }
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .about_content p {
+        font-size: 1.2rem;
+        font-weight: bolder;
+        margin: 1.5rem 0;
+        text-align: center;
+        color: var(--color-light);
+        background-color: rgba(114, 47, 55, 0.5);
+        padding: 2rem 2rem;
+        border-radius: 5rem;
+        -webkit-border-radius: 5rem;
+        -moz-border-radius: 5rem;
+        -ms-border-radius: 5rem;
+        -o-border-radius: 5rem;
+}
+
+
+    .aboutTitleContent::after {
+        content: '';
+        height: 4rem;
+        width: 15rem;
+        position: absolute;
+        top: 0;
+        left: 33%;
+        background-color: rgba(114, 47, 55, 0.5);
+        z-index: -1;
+        border: 2px solid black;
     }
 }
 
