@@ -197,12 +197,12 @@ img {
     section > h2 {
         margin-bottom: 2rem;
     }
+}
 
-    body{
-        background-image: url(../src/assets/Universe-iphone.jpg);
+/* Media Queries (small devices) landscape */
+@media only screen and (orientation: portrait) and (max-width: 600px) {
+    body {
+        background-image: url(./assets/Universe-iphone.jpg);
         background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh;
     }
 }
