@@ -197,12 +197,11 @@ img {
     section > h2 {
         margin-bottom: 2rem;
     }
-}
 
-/* Media Queries (small devices) landscape */
-@media only screen and (orientation: portrait) and (max-width: 600px) {
     body {
         background-image: url(./assets/background-iphone.jpg);
         background-size: cover;
+        
     }
 }
+
