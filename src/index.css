@@ -201,6 +201,8 @@ img {
     body{
         background-image: url(../src/assets/Universe-iphone.jpg);
         background-size: cover;
-        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
     }
 }
