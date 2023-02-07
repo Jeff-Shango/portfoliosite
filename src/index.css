@@ -199,9 +199,8 @@ img {
     }
 
     body {
-        background-image: url(./assets/background-iphone.jpg);
-        background-size: auto 100%;
-        background-position: center;
+        background-color: #1f1f38;
+        background-image: none;
     }
 }
 
