@@ -211,6 +211,10 @@
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) and (orientation: landscape) {
+    #about {
+        height: fit-content;
+    }
+
     .about_content p {
         font-size: 1.2rem;
         font-weight: bolder;
