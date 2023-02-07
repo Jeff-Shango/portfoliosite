@@ -198,8 +198,9 @@ img {
         margin-bottom: 2rem;
     }
 
-    body {background-image: url(../src/assets/universeBackground.jpg);
+    body{background-image: url(../src/assets/universeBackground.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: var(--container-width-sm);
+    background-position: center;
     background-repeat: no-repeat;}
 }
