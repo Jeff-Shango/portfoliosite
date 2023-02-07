@@ -201,6 +201,6 @@ img {
     body{
         background-image: url(../src/assets/Universe-iphone.jpg);
         background-size: cover;
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 }
