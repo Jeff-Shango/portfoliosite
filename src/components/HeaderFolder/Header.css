@@ -52,10 +52,14 @@ header {
 /* CTA */
 .cta {
     margin-top: 2.5rem;
-    display: grid;
-    gap: 3.5rem;
+
+    /* gap: 3.5rem;
     justify-content: center;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4,z); */
+}
+
+.cta > a {
+    margin: 1rem;
 }
 
 
@@ -146,7 +150,6 @@ header {
     .scroll_down {
         display: none;
     }
-    
 
     .container-title::after {
         content: '';
