@@ -146,12 +146,7 @@ header {
     .scroll_down {
         display: none;
     }
-
-    .cta {
-        margin-top: 2.5rem;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+    
 
     .container-title::after {
         content: '';
