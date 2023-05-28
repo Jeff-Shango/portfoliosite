@@ -14,7 +14,6 @@ const CTA = () => {
   return (
     <div className='cta'>
         <a id='resumePic' href={Resume} download className='btn btn-primary'>Download Resume</a>
-        <a id='resumePic' href={Resume} className='btn btn-primary'>View Resume</a>
         <a href="#contact" className='btn-primary btn'>Let's Talk</a>
     </div>
   )
