@@ -130,7 +130,13 @@ const data = [
   {
     id: 7, 
     image: img5,
-    tools:"ffwe" ,
+    tools:
+    ['HTML5',
+    <FaHtml5 key="html5" />,
+    'CSS3',
+    <FaCss3Alt key="css3" />,
+    'JavaScript',
+    <FaJs key="javascript" />],
     title: "Date Night List Tracker",
     github: "https://github.com/Jeff-Shango/todoapp.git",
     demo: "https://github.com/Jeff-Shango/todoapp.git"
@@ -138,7 +144,13 @@ const data = [
   {
     id: 8, 
     image: img6,
-    tools:"ffwe" ,
+    tools:
+    ['HTML5',
+    <FaHtml5 key="html5" />,
+    'CSS3',
+    <FaCss3Alt key="css3" />,
+    'JavaScript',
+    <FaJs key="javascript" />],
     title: "Original Portfolio",
     github: "https://github.com/Jeff-Shango/Jeff-Bozier-Portfolio.git",
     demo: "https://jeffbozierportfolio.netlify.app"

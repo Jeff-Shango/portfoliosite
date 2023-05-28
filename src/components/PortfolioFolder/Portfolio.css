@@ -129,8 +129,8 @@
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
     #portfolio {
-        height: 165rem;
-        margin-bottom: 15rem;
+        height: fit-content;
+        /* margin-bottom: 40rem; */
     }
     .portfolio_container {
         grid-template-columns: 1fr;
