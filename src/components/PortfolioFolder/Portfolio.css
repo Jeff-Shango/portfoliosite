@@ -107,7 +107,7 @@
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     #portfolio {
-        height: 90rem;
+        height: fit-content;
     }
     .portfolio_container {
         grid-template-columns: 1fr 1fr;
