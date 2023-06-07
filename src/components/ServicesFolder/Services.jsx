@@ -29,7 +29,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Experience using CSS library's Bootstrap.</p>
+              <p>Experience using CSS library's Bootstrap among others.</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
@@ -38,6 +38,10 @@ const Services = () => {
             <li>
               <BiCheck className='service_list-icon lastIcon' />
               <p>Designing focuses on usability with responsive design, consistent elements, clear content, and intuitive navigation for a positive user experience.</p>
+            </li>
+            <li>
+              <BiCheck className='service_list-icon lastIcon' />
+              <p>Able to implement detail into designing of photo and video imaging through editing software.</p>
             </li>
           </ul>
         </article>
@@ -49,6 +53,10 @@ const Services = () => {
           </div>
 
           <ul className="service_list">
+            <li>
+              <BiCheck className='service_list-icon' />
+              <p>Knowledge of SEO implementation.</p>
+            </li>
             <li>
               <BiCheck className='service_list-icon' />
               <p>Knowledge of different IDEs such as VS Code and Sublime Text.</p>

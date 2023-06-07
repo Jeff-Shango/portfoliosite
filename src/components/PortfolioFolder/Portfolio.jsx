@@ -34,7 +34,7 @@ const data = [
     ],
     title: "Personal Training Site",
     github: "https://github.com/Jeff-Shango/personaltraining.git",
-    demo: "https://github.com/Jeff-Shango/word-game.git"
+    demo: "https://jeffbozierfitness.netlify.app"
   },
   {
     id: 2, 
