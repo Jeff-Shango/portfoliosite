@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import './Header.css';
 import Resume from './CTA';
 import profilePic from '../../assets/profilepic.png';
@@ -10,14 +10,17 @@ const Header = () => {
   const [displayText, setDisplayText] = useState(''); // Text being typed
   const [charIndex, setCharIndex] = useState(0); // Current character index
 
-  // Languages dictionary
-  const greetings = [
-    { lang: 'en', text: "Hello, I'm" },
-    { lang: 'es', text: "Hola, soy" },
-    { lang: 'ja', text: "こんにちは、私は" },
-    { lang: 'pt', text: "Olá, eu sou" },
-    { lang: 'zh', text: "你好，我是" }
-  ];
+  // Memoized Languages dictionary
+  const greetings = useMemo(
+    () => [
+      { lang: 'en', text: "Hello, I'm" },
+      { lang: 'es', text: "Hola, soy" },
+      { lang: 'ja', text: "こんにちは、私は" },
+      { lang: 'pt', text: "Olá, eu sou" },
+      { lang: 'zh', text: "你好，我是" }
+    ],
+    []
+  );
 
   useEffect(() => {
     animateOnScroll();
@@ -42,7 +45,7 @@ const Header = () => {
     const typingInterval = setTimeout(typeText, 100); // Typing speed
 
     return () => clearTimeout(typingInterval); // Cleanup timeout
-  }, [charIndex, languageIndex, greetings]); // Include 'greetings' explicitly
+  }, [charIndex, languageIndex, greetings]);
 
   return (
     <header id='header'>
