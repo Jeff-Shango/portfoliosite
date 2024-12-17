@@ -113,7 +113,7 @@
 /* Media Queries for Medium Devices */
 @media screen and (max-width: 1024px) {
     #about {
-        margin-bottom: 16rem;
+        margin-bottom: 20rem;
     }
 
     .about_container {
@@ -178,6 +178,7 @@
     #about {
         margin-bottom: 45rem;
     }
+    
 
     .about_me {
         width: 65%;
