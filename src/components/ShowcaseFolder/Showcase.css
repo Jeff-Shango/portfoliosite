@@ -120,7 +120,34 @@
     .showcase {
         margin-top: 4rem;
         margin-bottom: 4rem;
-        outline: 2px solid red;
+    }
+
+    .showcase-title {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .showcase-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .project-card {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .project-title {
+        font-size: 1.1rem;
+    }
+}
+
+/* Landscape Mode for Small Devices */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    .showcase {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
 
     .showcase-title {
