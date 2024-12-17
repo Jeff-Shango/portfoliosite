@@ -37,12 +37,12 @@
 .servicesTitle::after{
     content: '';
     position: absolute;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 3.5rem;
     width: 12rem;
     left: 43%;
     top: 0;
-    background-color: rgba(114, 47, 55, 0.5);
+    /* background-color: rgba(114, 47, 55, 0.5); */
     z-index: -1;
 }
 
@@ -131,12 +131,12 @@
     .servicesTitle::after{
         content: '';
         position: absolute;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         height: 4rem;
         width: 15rem;
         left: 34%;
         top: 0;
-        background-color: rgba(114, 47, 55, 0.5);
+        /* background-color: rgba(114, 47, 55, 0.5); */
         z-index: -1;
     }
     
@@ -159,12 +159,12 @@
     .servicesTitle::after{
         content: '';
         position: absolute;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         height: 3.5rem;
         width: 15rem;
         left: 22%;
         top: 0;
-        background-color: rgba(114, 47, 55, 0.5);
+        /* background-color: rgba(114, 47, 55, 0.5); */
         z-index: -1;
     }
 }

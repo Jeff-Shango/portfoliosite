@@ -1,3 +1,22 @@
+.language-selector {
+    margin-top: 10px;
+  }
+  
+  .language-selector button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .language-selector button:hover {
+    background-color: #45a049;
+  }
+  
+
 /* js file */
 .animate-on-scroll {
     opacity: 0;
@@ -39,13 +58,12 @@ header {
 
 .container-title::after {
     content: '';
-    border: 2px solid black;
     height: 11rem;
     width: 25rem;
     position: absolute;
     top: 0;
     left: 30%;
-    background-color:  rgba(114, 47, 55, 0.5);
+    /* background-color:  rgba(114, 47, 55, 0.5); */
     z-index: -1;
 }
 
@@ -129,13 +147,12 @@ header {
 
     .container-title::after {
         content: '';
-        border: 2px solid black;
         height: 11rem;
         width: 15rem;
         position: absolute;
         top: 0;
         left: 30%;
-        background-color:  rgba(114, 47, 55, 0.5);
+        /* background-color:  rgba(114, 47, 55, 0.5); */
         z-index: -1;
     }
 }
@@ -153,7 +170,6 @@ header {
 
     .container-title::after {
         content: '';
-        border: 2px solid black;
         height: 11rem;
         width: 15rem;
         position: absolute;

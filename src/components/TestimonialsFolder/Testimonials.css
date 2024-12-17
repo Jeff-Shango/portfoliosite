@@ -36,13 +36,13 @@
 
 .testimonialTitle::after{
     content: '';
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: absolute;
     height: 3.5rem;
     width: 20rem;
     left: 38%;
     top: 0;
-    background-color:  rgba(114, 47, 55, 0.5);
+    /* background-color:  rgba(114, 47, 55, 0.5); */
     z-index: -1;
 }
 
@@ -92,13 +92,13 @@
 
     .testimonialTitle::after{
         content: '';
-        border: 2px solid black;
+        /* border: 2px solid black; */
         position: absolute;
         height: 4rem;
         width: 19rem;
         left: 30.5%;
         top: 0;
-        background-color:  rgba(114, 47, 55, 0.5);
+        /* background-color:  rgba(114, 47, 55, 0.5); */
         z-index: -1;
     }
 
@@ -136,13 +136,13 @@
 
         .testimonialTitle::after{
             content: '';
-            border: 2px solid black;
+            /* border: 2px solid black; */
             position: absolute;
             height: 4rem;
             width: 19rem;
             left: 13%;
             top: 0;
-            background-color:  rgba(114, 47, 55, 0.5);
+            /* background-color:  rgba(114, 47, 55, 0.5); */
             z-index: -1;
         }
     

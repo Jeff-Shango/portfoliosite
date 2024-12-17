@@ -36,13 +36,13 @@
 
 .contactTitle::after {
     content: '';
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 13rem;
     height: 4.5rem;
     position: absolute;
     top: 0;
     left: 42.2%;
-    background-color: rgba(114, 47, 55, 0.5);
+    /* background-color: rgba(114, 47, 55, 0.5); */
     z-index: -1;
 }
 
@@ -136,7 +136,7 @@ form button {
 .inputBox input, textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    /* border: 1px solid rgba(255, 255, 255, 0.25); */
     background: var(--color-primary);
     outline: none;
     border-radius: 5px;
@@ -196,13 +196,13 @@ form button {
 
     .contactTitle::after {
         content: '';
-        border: 2px solid black;
+        /* border: 2px solid black; */
         width: 13rem;
         height: 4.5rem;
         position: absolute;
         top: 0;
         left: 36.5%;
-        background-color: rgba(114, 47, 55, 0.5);
+        /* background-color: rgba(114, 47, 55, 0.5); */
         z-index: -1;
     }
 
@@ -245,13 +245,13 @@ form button {
 
     .contactTitle::after {
         content: '';
-        border: 2px solid black;
+        /* border: 2px solid black; */
         width: 13rem;
         height: 4.5rem;
         position: absolute;
         top: 0;
         left: 25%;
-        background-color: rgba(114, 47, 55, 0.5);
+        /* background-color: rgba(114, 47, 55, 0.5); */
         z-index: -1;
     }
 
