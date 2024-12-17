@@ -120,6 +120,7 @@
     .showcase {
         margin-top: 4rem;
         margin-bottom: 4rem;
+        outline: 2px solid red;
     }
 
     .showcase-title {
@@ -148,7 +149,6 @@
     .showcase {
         margin-top: 2rem;
         margin-bottom: 3rem;
-        outline: 2px solid red;
     }
 
     .showcase-title {
