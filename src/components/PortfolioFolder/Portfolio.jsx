@@ -12,6 +12,9 @@ import img7 from '../../assets/img7.png'
 import { animateOnScroll } from '../../Functions/animateScrollFunctions'
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaDatabase, FaNodeJs, FaServer } from 'react-icons/fa';
 import { SiMinutemailer } from "react-icons/si";
+import barsite from '../../assets/barSiteImg.png';
+import { SiThreedotjs } from "react-icons/si";
+
 
 
 const data = [
@@ -33,6 +36,24 @@ const data = [
     github: "https://github.com/Jeff-Shango/bobawedding",
     demo: "https://bozierwedding.netlify.app"
   },
+  {
+    id: 9,
+    image: barsite, // Replace with actual image path
+    tools: [
+      'HTML5',
+      <FaHtml5 key="html5" />,
+      'CSS3',
+      <FaCss3Alt key="css3" />,
+      'JavaScript',
+      <FaJs key="javascript" />,
+      'Three.js',
+      <SiThreedotjs key="threejs" /> // Add Three.js Icon
+    ],
+    title: "3D Scene with Three.js",
+    github: "https://github.com/Jeff-Shango/barsite.git",
+    demo: "https://bozierbar.netlify.app"
+  },
+  
   {
     id: 3, 
     image: imgFitness,
