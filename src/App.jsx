@@ -9,6 +9,7 @@ import Navbar from './components/NavbarFolder/Navbar'
 import Services from './components/ServicesFolder/Services'
 import Testimonials from './components/TestimonialsFolder/Testimonials'
 import { checkScreen } from './Functions/loaderFunctions.js'
+import Showcase from './components/ShowcaseFolder/Showcase.jsx'
 
 checkScreen(); 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
     <Navbar />
     <About />
     <Experience />
+    <Showcase />
     <Services />
     <Portfolio />
     <Testimonials />

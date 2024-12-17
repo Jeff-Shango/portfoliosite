@@ -39,7 +39,7 @@ const About = () => {
             </article>
           </div>
           <p>
-          Meet Jeff Bozier, a skilled software engineer from Baltimore, MD with extensive experience in full cycle web development. With a passion for creating innovative and user-friendly web solutions, Jeff is always eager to discuss future projects and opportunities in the software engineering field. Get in touch with him today to see how he can help with your development needs.
+          Meet Jeff Bozier, a results-driven IT professional specializing in Quality Assurance, System Administration, and Software Development. With experience managing statewide systems and building interactive web applications, I bring a unique blend of testing, optimization, and development expertise. My goal is to craft reliable, efficient solutions that deliver a seamless user experience.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
