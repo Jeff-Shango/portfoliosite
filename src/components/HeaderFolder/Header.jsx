@@ -21,7 +21,9 @@ const Header = () => {
 
   useEffect(() => {
     animateOnScroll();
+  }, []); // Only runs once on mount
 
+  useEffect(() => {
     // Function to handle typing effect
     const typeText = () => {
       if (charIndex < greetings[languageIndex].text.length) {
@@ -40,15 +42,14 @@ const Header = () => {
     const typingInterval = setTimeout(typeText, 100); // Typing speed
 
     return () => clearTimeout(typingInterval); // Cleanup timeout
-  }, [charIndex, languageIndex]); // Re-run effect when charIndex or languageIndex changes
+  }, [charIndex, languageIndex, greetings]); // Include 'greetings' explicitly
 
   return (
     <header id='header'>
       <div className='container header_container'>
         <div className="container-title">
-          {/* Fixed-width container to prevent shifting */}
           <h5 style={{ minHeight: '1.5rem', display: 'inline-block' }}>
-            {displayText || '\u00A0'} {/* Show empty space when text is not present */}
+            {displayText || '\u00A0'} {/* Prevent shifting */}
           </h5>
           <h1>Jeff Bozier</h1>
           <h5 className="text-light">Software Engineer</h5>
