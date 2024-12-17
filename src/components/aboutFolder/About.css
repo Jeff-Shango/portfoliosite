@@ -176,7 +176,6 @@
 /* Media Queries for Small Devices */
 @media screen and (max-width: 600px) {
     #about {
-        outline: 1px solid red;
         margin-bottom: 45rem;
     }
     
