@@ -10,6 +10,7 @@ import Services from './components/ServicesFolder/Services'
 import Testimonials from './components/TestimonialsFolder/Testimonials'
 import { checkScreen } from './Functions/loaderFunctions.js'
 import Showcase from './components/ShowcaseFolder/Showcase.jsx'
+// import Chart from './components/ChartFolder/Chart.jsx'
 
 checkScreen(); 
 const App = () => {
